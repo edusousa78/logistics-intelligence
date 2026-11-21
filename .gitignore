@@ -1,0 +1,42 @@
+
+# ============================================================
+# NEXALOG BRASIL | GITIGNORE
+# ============================================================
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Original datasets
+data/raw/
+
+# Processed datasets
+data/processed/*
+!data/processed/dashboard_validation.csv
+
+# Secrets and local settings
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.vscode/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+*.tmp

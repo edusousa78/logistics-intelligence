@@ -1,0 +1,29 @@
+{
+  "project": "NexaLog Brasil",
+  "evaluation": "Final Temporal Holdout",
+  "evaluated_at_utc": "2026-11-21T01:18:59.874166+00:00",
+  "model_sha256": "381351788d494014b81f8286e29780fe49435510a0825a079eb4635f89135bed",
+  "test_period": {
+    "start": "2018-07-01",
+    "end_exclusive": "2018-09-01"
+  },
+  "total_orders": 12516,
+  "late_orders": 599,
+  "late_prevalence": 0.04785874081176095,
+  "top_10_orders": 1252,
+  "top_10_late_orders": 83,
+  "metrics": {
+    "average_precision": 0.07309547176242694,
+    "roc_auc": 0.6323670552148184,
+    "precision_at_10": 0.06629392971246006,
+    "recall_at_10": 0.13856427378964942,
+    "lift_at_10": 1.3852000405361438
+  },
+  "roc_auc_criterion": {
+    "minimum": 0.7,
+    "passed": false
+  },
+  "overall_model_approval": "PENDING_ORIGINAL_CRITERIA_RECONCILIATION",
+  "retraining_performed": false,
+  "model_selection_performed": false
+}
